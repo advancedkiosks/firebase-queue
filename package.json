@@ -44,10 +44,12 @@
     "gulp-istanbul": "^1.1.1",
     "gulp-mocha": "^3.0.1",
     "sinon": "^1.17.3",
-    "sinon-chai": "^2.8.0"
+    "sinon-chai": "^2.8.0",
+    "webpack": "^3.5.4"
   },
   "scripts": {
     "test": "gulp test",
-    "travis": "gulp"
+    "travis": "gulp",
+    "build": "webpack -p"
   }
 }
